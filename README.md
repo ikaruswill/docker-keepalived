@@ -1,5 +1,9 @@
-# keepalived
+# [keepalived][gh]
 [![Build Status](https://ci.ikaruswill.com/api/badges/ikaruswill/docker-keepalived/status.svg)](https://ci.ikaruswill.com/ikaruswill/docker-keepalived)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ikaruswill/keepalived.svg)][hub]
+
+[hub]: https://hub.docker.com/r/ikaruswill/keepalived/
+[gh]: https://github.com/ikaruswill/docker-keepalived
 
 Lightweight image for keepalived bundled with curl for health check scripts.
 
