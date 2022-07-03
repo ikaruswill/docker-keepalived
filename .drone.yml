@@ -10,15 +10,17 @@ platform:
 clone:
   depth: 1
 
+resources:
+  requests:
+    cpu: 500
+    memory: 100MiB
+
 steps:
 - name: publish
   image: plugins/docker
   environment:
     PLUGIN_MTU: 1440
   resources:
-    requests:
-      cpu: 500
-      memory: 100MiB
     limits:
       cpu: 500
       memory: 100MiB
@@ -53,15 +55,17 @@ platform:
 clone:
   depth: 1
 
+resources:
+  requests:
+    cpu: 500
+    memory: 100MiB
+
 steps:
 - name: publish
   image: plugins/docker
   environment:
     PLUGIN_MTU: 1440
   resources:
-    requests:
-      cpu: 500
-      memory: 100MiB
     limits:
       cpu: 500
       memory: 100MiB
